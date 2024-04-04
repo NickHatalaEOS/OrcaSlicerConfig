@@ -1,0 +1,12 @@
+{
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Povtek CP",
+    "printable_height": "150",
+    "printer_settings_id": "Povtek CP",
+    "version": "1.6.1.0",
+    "z_hop": [
+        "0"
+    ]
+}

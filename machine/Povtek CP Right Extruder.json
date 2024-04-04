@@ -1,0 +1,72 @@
+{
+    "auxiliary_fan": "1",
+    "bed_custom_model": "C:\\\\Users\\\\Admin\\\\Documents\\\\Printer\\\\Printer Setup\\\\FFCP Z Assembly Model Corner Origin.stl",
+    "bed_custom_texture": "C:\\\\Users\\\\Admin\\\\Documents\\\\Printer\\\\Printer Setup\\\\Print Bed Right Corner Origin.png",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;Layer Number: [layer_num]\n;[layer_z]\nG92 E0\n",
+    "deretraction_speed": [
+        "60"
+    ],
+    "fan_speedup_overhangs": "0",
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE",
+    "machine_end_gcode": ";- - - Custom finish printing G-code for FlashForge Creator Pro running Klipper - - -\nM106 S0; Turn off fan\n\nG1 X0 Y0 F10800; Move extruder home\nG1 Z150 F720 ; send Z axis to bottom of machine\nM140 S0 T0; set bed temperature to 0\nM104 S0 T0; set 1st extruder temperature to 0\nM104 S0 T1; set 2nd extruder temperature to 0\nM18; disable all stepper motors\nM70 P3; We <3 Making Things!\nM117 I'm Watching You Jacob\nM300 S98 P600 V1; Play an annoying beep\nM140 S0 T60; set bed temperature to 0\n[notes]\n;- - - End finish printing G-code - - -",
+    "machine_max_acceleration_x": [
+        "1900",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "1900",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "150",
+        "200"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "20",
+        "12"
+    ],
+    "machine_start_gcode": ";Right Extruder Start GCode\n;first layer temperature = [nozzle_temperature_initial_layer]C\n;temperature = [nozzle_temperature]C\n;first layer bed temperature = [hot_plate_temp_initial_layer]C\n;bed temperature = [hot_plate_temp]C\n;- - - - - - - - - - - - - - - - - - - - - - - - -\n\nT1; Set Right extruder as active\nM104 S160; Start heating active extruder up to first layer temperature, don't wait for heatup. 160 will prevent oozing\nM190 S[first_layer_bed_temperature]; Start heating bed up to first layer temperature. Wait for heatup before probing\n\nG28; Home Axes\nG29; Bed mesh calibration\nM104 S[first_layer_temperature]; Heat up to first layer temperature and wait until it reachers that temp\nM140 S[first_layer_bed_temperature]; Heat up to first layer bed temperature and wait until it reaches that temp\n\nG1 Z10 F1500; move the bed down 10mm to not contact bed longer than needed\n\nG90; Set absolute positioning\n\nM83; use relative E coordinates\nG1 X15 Y156 F8400; move to front right corner of print bed\n\nM109 S[first_layer_temperature]; Heat up to first layer temperature and wait until it reachers that temp\nM190 S[first_layer_bed_temperature]; Heat up to first layer bed temperature and wait until it reaches that temp\n\n;G1 Z0.05 F1000\n;G1 E6 F2000; Extrude some filament to purge the nozzle\n;G1 Y145 F1500; Move in to cutoff oozed material\n;G1 Z[first_layer_height] F1500; move to first layer height\n;G1 Z0.2 F1500\n\n;G1 X15 Y149 ;Move to start of first line\n;G4 P1000\n;G1 X115 E{(100*0.1114159265)/(3.14152965*(filament_diameter[0]/2)*(filament_diameter[0]/2))} F3000 ;Print First purge line\n;G1 Y148.44 E{(0.025805*0.1114159265)/(3.14152965*(filament_diameter[0]/2)*(filament_diameter[0]/2))} F3000 ;Move to second line start\n;G1 X15 E{(100*0.1114159265)/(3.14152965*(filament_diameter[0]/2)*(filament_diameter[0]/2))} F3000 ;Print second line\n\n\nG1 F8400; Set feedrate so that travel to first print move is fast, reduces oozed filament\nLINE_PURGE\n;- - - End custom G-code for right extruder printing - - -",
+    "max_layer_height": [
+        "0.3"
+    ],
+    "min_layer_height": [
+        "0.05"
+    ],
+    "name": "Povtek CP Right Extruder",
+    "nozzle_type": "brass",
+    "print_host": "http://povtekcp.local/",
+    "printable_area": [
+        "0x0",
+        "232x0",
+        "232x150",
+        "0x150"
+    ],
+    "printable_height": "150",
+    "printer_settings_id": "Povtek CP Right Extruder",
+    "printhost_apikey": "*SecretSquirrel*",
+    "retraction_speed": [
+        "60"
+    ],
+    "version": "1.6.1.0",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0"
+    ]
+}
