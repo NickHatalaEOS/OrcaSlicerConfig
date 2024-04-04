@@ -1,0 +1,55 @@
+{
+    "default_filament_colour": [
+        "#1D1D1D"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cooling_moves": [
+        "0"
+    ],
+    "filament_cost": [
+        "29.95"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_flow_ratio": [
+        "1.05"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_notes": [
+        "Black"
+    ],
+    "filament_retraction_length": [
+        "0.9"
+    ],
+    "filament_settings_id": [
+        "PLA-HS Black eSUN"
+    ],
+    "filament_shrink": [
+        "99.2%"
+    ],
+    "filament_type": [
+        "PLA-HS"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA-HS Black eSUN",
+    "nozzle_temperature_range_high": [
+        "220"
+    ],
+    "pressure_advance": [
+        "0.101"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

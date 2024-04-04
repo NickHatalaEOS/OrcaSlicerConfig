@@ -1,0 +1,73 @@
+{
+    "default_filament_colour": [
+        "#2A2A2A"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "25"
+    ],
+    "filament_density": [
+        "1.04"
+    ],
+    "filament_deretraction_speed": [
+        "20"
+    ],
+    "filament_diameter": [
+        "1.795"
+    ],
+    "filament_flow_ratio": [
+        "1.15"
+    ],
+    "filament_max_volumetric_speed": [
+        "2"
+    ],
+    "filament_notes": [
+        "Black"
+    ],
+    "filament_retraction_length": [
+        "0"
+    ],
+    "filament_retraction_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "eLastic Black eSun"
+    ],
+    "filament_shrink": [
+        "99.3%"
+    ],
+    "filament_type": [
+        "eLastic"
+    ],
+    "filament_vendor": [
+        "eSun"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "eLastic Black eSun",
+    "nozzle_temperature": [
+        "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "230"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "pressure_advance": [
+        "0"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

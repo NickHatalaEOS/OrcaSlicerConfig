@@ -1,0 +1,49 @@
+{
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "25.95"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_diameter": [
+        "1.74"
+    ],
+    "filament_flow_ratio": [
+        "0.975"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_notes": [
+        "White"
+    ],
+    "filament_retraction_length": [
+        "0.8"
+    ],
+    "filament_settings_id": [
+        "PLA White Aurarum"
+    ],
+    "filament_vendor": [
+        "Aurarum"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA White Aurarum",
+    "nozzle_temperature_range_high": [
+        "220"
+    ],
+    "pressure_advance": [
+        "0.094"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

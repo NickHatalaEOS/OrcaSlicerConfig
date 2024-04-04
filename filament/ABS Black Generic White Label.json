@@ -1,0 +1,73 @@
+{
+    "default_filament_colour": [
+        "#2A2A2A"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "25"
+    ],
+    "filament_density": [
+        "1.04"
+    ],
+    "filament_diameter": [
+        "1.73"
+    ],
+    "filament_flow_ratio": [
+        "0.945"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_notes": [
+        "Black"
+    ],
+    "filament_retraction_length": [
+        "0.6"
+    ],
+    "filament_settings_id": [
+        "ABS Black Generic White Label"
+    ],
+    "filament_shrink": [
+        "99.3%"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
+    "filament_vendor": [
+        "Generic White Label"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "ABS Black Generic White Label",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "pressure_advance": [
+        "0.064"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

@@ -1,0 +1,55 @@
+{
+    "default_filament_colour": [
+        "#B0B0B0"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cooling_moves": [
+        "0"
+    ],
+    "filament_cost": [
+        "25"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_diameter": [
+        "1.735"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_notes": [
+        "Grey"
+    ],
+    "filament_retraction_length": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "PLA+ Silver eSUN"
+    ],
+    "filament_type": [
+        "PLA+"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA+ Silver eSUN",
+    "nozzle_temperature_range_high": [
+        "220"
+    ],
+    "pressure_advance": [
+        "0.104"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

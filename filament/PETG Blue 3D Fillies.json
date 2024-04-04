@@ -1,0 +1,73 @@
+{
+    "default_filament_colour": [
+        "#0075EA"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "25.95"
+    ],
+    "filament_density": [
+        "1.27"
+    ],
+    "filament_diameter": [
+        "1.73"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_notes": [
+        "Blue"
+    ],
+    "filament_retraction_length": [
+        "0.8"
+    ],
+    "filament_settings_id": [
+        "PETG Blue 3D Fillies"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PETG Blue 3D Fillies",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "250"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "pressure_advance": [
+        "0.154"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

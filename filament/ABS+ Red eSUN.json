@@ -1,0 +1,79 @@
+{
+    "default_filament_colour": [
+        "#FF0000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "0"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "24.95"
+    ],
+    "filament_density": [
+        "1.04"
+    ],
+    "filament_diameter": [
+        "1.76"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "7"
+    ],
+    "filament_notes": [
+        "Red"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_settings_id": [
+        "ABS+ Red eSUN"
+    ],
+    "filament_type": [
+        "ABS+"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "ABS+ Red eSUN",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "pressure_advance": [
+        "0"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "temperature_vitrification": [
+        "110"
+    ],
+    "version": "1.6.1.0"
+}
